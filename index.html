@@ -1,141 +1,68 @@
 <!DOCTYPE html>
 <head>
-  <title>ToDumpOrNotToDump</title>
+  <title>NadineOttBlog</title>
+  <link rel= "stylesheet" href="NadineOttBlogStyleSheet.css" type="text/css">
 </head>
 <body>
-<div id = "errything">
-  <h1 align="center">To dump or not to dump</h1>
-  <div id = "findOut">
-    <h3 align ="center">Click here to find out!</h3>
-    <h4 align ="center">(and then scroll down...)</h4>
-  </div>
+
+<!--Picture and Heading-->
+    <h1 class = heading>I'm Nadine Ott. This is my blog.<h1>
+    <div class = mainPhoto> <img src = "http://i1379.photobucket.com/albums/ah144/NadineOtt/NayCirclePic_zps58hsyzum.png" border="0" alt=" photo NayCirclePic_zps58hsyzum.png"> </div>
 
 
-  <div id = "dogNolike" style= "visibility: hidden">
-    <h2 align = "center">Your dog doesn't like them.<br>Why is dumping them even a question?<br>Go on, dump them.</h2>
-    <center> <img src = http://messiahsmandate.org/images/confused_dog.jpg alt = "confused dog"> </center>
-  </div>
-
-  <div id = "makebelieve" style="visibility: hidden">
-    <h2 align = "center">The person described does not exist, stop lying.</h2>
-    <center> <img src = data:image/jpeg;base64,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 alt = "annoyed dog"> </center>
-  </div>
-
-  <div id = "neverleave" style="visibility: hidden">
-    <h2 align = "center">This is as good as it's gonna get. Don't dump.</h2>
-    <center> <img src = http://www.icankids.com/wp-content/uploads/2013/08/svznb-dog-love-you-forever2.jpg alt = "never leave"> </center>
-  </div>
-
-  <div id= "comfy" style="visibility: hidden">
-    <h2 align = "center">You look comfy, might as well hang out for a little while.</h2>
-    <center> <img src = http://www.funnydogsite.com/pictures/Dog_And_Cat_Comfy.jpg alt = "you look comfy"> </center>
-  </div>
-
-  <div id= "run" style="visibility: hidden">
-    <h2 align = "center">Dump and run. Dump. And. Run.</h2>
-    <center> <img src = http://i.ytimg.com/vi/WoLOn-soAOI/hqdefault.jpg alt = "run fast"> </center>
-  </div>
 
 
-  <div>
-    <body style = "background-color: mediumpurple">
-  </div>
-  <style>
-        #errything {
-          border: 8px solid white;
-          margin: 0% 10% 7% 10%;
+<!--Blog Posts-->
+<table>
+    <tr>
+    <div class = postTitle>MakerSquare: night before Week 2 Day 1</div>
+    <div class = post>
+          What a week. I&rsquo;ll hit the main points since it&rsquo;s all a blur at this point. 
+          <ul>
+            <li>Not surprisingly, my feeling of impending doom about my next pair partner was completely unfounded. Not only completely unfounded, but completely inaccurate. I couldn&rsquo;t have been happier with my pair. She was smart and communicative and had a great attitude and a quirky sense of humor. She also helped me when I fell behind and was vocal when she needed a hand as well. <br><br>
+            <li>My mom learned how to text and preceeded to send me encouraging texts throughout the week. I would be concentrating hard on a problem, my eyes aching and my body tense, trying to pin down why in the world my function wasn't working after 90 minutes of tweaking...and all of a sudden the messenger app on my computer would open and I&rsquo;d get a delightful little snippet of support and love from my mom. Doesn't get much better than that <br><br>
+            <li>I had an insanely productive Sunday. More productive than most full weekends, likely because one 1 weekends back so much more value per day than 2 day weekends. Having said that...I am going to miss having Saturdays free. I&rsquo;m going to miss that very much. <br><br>
+            <li>It has officially been four and a half hours since Varun texted &quotbe home soon&quot and I have yet to see him walk through the door. Normally this would irk me a little bit, but not today. I have a finite amount of brain space available at the moment, and getting annoyed at his propensity towards tardiness isn&rsquo; t a good use of it. I'\&rsquo;m sure he&rsquo;ll be thrilled when he catches onto this.
+             <br><br></div>
+  </tr>
+  <tr>
+    <div class = postTitle>MakerSquare: Week 1 Day 3 10:13pm</div>
+    <div class = post>   
+           First self assessment was today and man was I nervous. It went as expected- it was chaotic and I felt rushed and panicked and nervous and an terrified the whole time. I couldn&rsquo;t be happier. Not because it went well, it didn&rsquo;t, but because I survived and now I know I can survive whatever else comes my way. Bring it. <br><br>
 
-        }
-  </style>
-    <script>
+           Something thing that struck me today was how I hadn&rsquo;t had any coffee at all, was functioning on 4 hours of sleep, and didn&rsquo;t feel tired. Let me elucidate on this. I am not a person who has ever been able to function well on little sleep, in fact in my experience I function quite poorly on anything less than 7 hours. I usually throw back coffee to no avail and find myself daydreaming of a pristine bed magically appearing for me to collapse into, while my eyelids grow heavy and I am unable to focus on the task at hand. Weirdly enough this hasn&rsquo;t been the case since I stated MakerSquare. I think it&rsquo;s because I am stimulated and interested in the task at hand. Give my brain something to focus on besides the exhaustion hanging heavy like a thick fog and the fog ceases to exist! Even weirder than this new phenomenon is that instead of being pumped about it, I&rsquo;m a bit saddened by how it took me this long to discover it. Oh the perspective I&rsquo;m gaining after only three days, I wonder what I&rsquo;ll learn tomorrow. <br><br></div>
+  </tr>
+ <tr>
+    <div class = postTitle>MakerSquare: Week 1 Day 2 11:15pm</div>
+    <div class = post>
+           Day one was great, we were coddled and reviewed stuff we had already done and spent a lot of time getting to know each other. I left completely reassured that MakerSquare was the best choice for me, starting my career from scratch at 26 was a good idea, and everything would be okay. Tomorrow is our first assessment, and I&rsquo;m terrified. What if I do poorly on the first assessment? Will I be marked with a scarlet &quotD&quot for dummie? Will I be put on some sort of probation? Will it be indicative that I just am not smart enough for this? It reminds me of the Shell Silverstein poem Whatif, which perfectly describes my train of thought every night as I settle into sleep and pray it will be an quick transition to blissful slumber. It rarely is. My brain is in an infinite Whatif loop and there&rsquo;s no alt+ctrl+del option. <br><br>
 
-//gather info
+          Tomorrow is the start of our second sprint and I&rsquo;ll be switching from my beloved (read: familiar) pair partner that joins me in this class from our prep class. I&rsquo;m incredibly apprehensive about my next partner. What if they are lightyears ahead of me? What if they are condescending and can barely conceal their disgust at my lack of knowledge? Oh the possibilities.<br><br> </div> 
+  </tr>
 
-document.querySelector('#findOut').addEventListener('click', function() {
-    var counter = 0;
-    var laugh = prompt("Do they make you laugh?");
-    if (laugh === "yes" || laugh ==="yeah" || laugh ==="YES" || laugh ==="y" || laugh ==="yup" || laugh ==="affirmative") {
-      counter += 1;
-    }
-    var snugs = prompt("Are they a world class snuggler?");
-      if (snugs === "yes" || snugs ==="yeah" || snugs ==="YES" || snugs ==="y" || snugs ==="yup" || snugs ==="affirmative") {
-        counter += 2;
-        }
-    var life = prompt("Do you wonder what they're doing with their life?");
-      if (life === "yes" || life ==="yeah" || life ==="YES" || life ==="y" || life ==="yup" || life ==="affirmative") {
-        counter -= 2;
-        }
-    var grownup = prompt("Do they manage to get out of bed, do the dishes, and shower daily?");
-      if (grownup === "yes" || grownup ==="yeah" || grownup ==="YES" || grownup ==="y" || grownup ==="yup" || grownup ==="affirmative") {
-        counter += 2;
-        }
-    var famgood = prompt("Does their family rock?");
-      if (famgood === "yes" || famgood ==="yeah" || famgood ==="YES" || famgood ==="y" || famgood ==="yup" || famgood ==="affirmative") {
-        counter += 3;
-        }
-    var friends = prompt("Do your friends like them?");
-      if (friends === "yes" || friends ==="yeah" || friends ==="YES" || friends ==="y" || friends ==="yup" || friends ==="affirmative") {
-        counter += 2;
-        }
-    var smart = prompt("Do they know the difference between your and you're?");
-      if (smart === "yes" || smart ==="yeah" || smart ==="YES" || smart ==="y" || smart ==="yup" || smart ==="affirmative") {
-        counter += 4;
-        }
-    var league = prompt("Are they out of your league?");
-      if (league === "yes" || league ==="yeah" || league ==="YES" || league ==="y" || league ==="yup" || league ==="affirmative") {
-        counter += 3;
-        }
-    var dog = prompt("Does your dog like them?");
-      if (dog === "yes" || dog ==="yeah" || dog ==="YES" || dog ==="y" || dog ==="yup" || dog ==="affirmative") {
-        counter += 5;
-        }
+  <tr>
+    <div class = postTitle>How it started</div>
+          <div class = post>Not long ago I found myself talking to my superior at work regarding a problem that, given an engineering fix, would have saved me about 30 minutes per day. Let me be clear- this was 30 minutes of entirely pointless transferring data from point A to point B. I was on a team of ten people, and assuming we all got hit with this issue equally, that would be about 5 hours per day, 25 hours per week, 100 hours per month. 100 hours a month to be used for far better puroses after this engineering fix, which apparently was a &quotweek long fix&quot on the part of an engineer. I&rsquo;ll equate that to 50 hours of work. <br><br>
 
-//give results based on score
+          Bear with me here while I do some simple math. My team spent 100 hours per month doing this. It would have taken an engineer 50 hours to eliminate this process for my team completely. How great is that? Two weeks after implementing this fix the company would have broken even on employee time used vs. employee time gained. What I didn&rsquo;t understand was that my math was wrong. An hour of my time was not worth an hour of an engineer&rsquo;s time. Not even close. <br><br>
 
-    switch(dog) {
-        case "yes":
-          counter += 5;
-          break;
-        case "yeah":
-          counter += 5;
-          break;
-        case "YES":
-          counter += 5;
-          break;
-        case "y":
-          counter += 5;
-          break;
-        case "yup":
-          counter += 5;
-          break;
-        case "affirmative":
-          counter += 5;
-          break;
-        default:
-          $('#dogNolike').css('visibility', 'visible');
-          break;
-}
-    if (counter > 23) {
-      $('#makebelieve').css('visibility', 'visible')
-    }
+          When I proposed we move forward at full speed with the fix, I was told that it was &quotnot worth it.&quot Mind. Blown. 100 hours of my teams time per month on an ongoing basis is &quotnot worth&quot 50 hours of an engineer&rsquo;s time. <br><br>
 
-    else if (counter > 16) {
-      $('#neverleave').css('visibility', 'visible')
-    }
-    else if (counter > 12) {
-      $('#comfy').css('visibility', 'visible')
-    }
-    else {
-      $('#run').css('visibility', 'visible')
-    }
-      console.log (counter);
-    });
+          Have you ever been picked last for kickball? Or dumped out of nowhere with someone who you thought was pretty swell? It felt kind of like that. I wanted to jump up and down and scream &quotI&rsquo;m a worthwhile person! I work my butt off and I&rsquo;m pretty smart to boot! Why is my time worth nothing compared to that person&rsquo;s time?&quot Instead, I went with the smile, nod, and the ever fitting &quotThanks for taking the time to look into it.&quot <br><br>
 
+          I thought about figuring out a way to bring this issue to my superiors in a new light, add more value to the proposition, you know the drill. But this hadn&rsquo;t been the first time I had been stonewalled with the ever powerful &quotengineering effort&quot argument. I had a feeling it wouldn&rsquo;t be the last. That night I googled &quotcoding for beginners.&quot <br><br>
 
-  </script>
-</div>
+    And that&rsquo;s how it started.<br><br><br><br></div>
+  </tr>
 
-    <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+  <!--NEW POST
+  <tr>
+    <div class = postTitle>Post 1</div>
+    <div class = post>Post content here</div>
+  </tr>
+-->
+</table>
+
 </body>
 
 </html>
